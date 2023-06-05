@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    /> -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="home">
+      <div class="my-3 home_container">
+        <form class="row g-3 col-md-6 m-auto" action="form.php" method="post">
+          <h1 class="my-3">Registration</h1>
+          <div class="col-md-12">
+            <label for="inputEmail4" class="form-label">First Name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputEmail4"
+              name="fname"
+            />
+          </div>
+          <div class="col-md-12">
+            <label for="inputLastName" class="form-label">Last Name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputLastName"
+              name="lname"
+            />
+          </div>
+          <div class="col-12">
+            <label for="inputAddress" class="form-label">Address</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputAddress"
+              placeholder="Enter Your Address"
+              name="address"
+            />
+          </div>
+          <div class="col-md-12">
+            <label for="inputState" class="form-label">Country</label>
+            <select id="inputState" class="form-select">
+              <option selected name="country">Choose Your Country</option>
+              <option value="Egypt">Egypt</option>
+              <option value="Egypt">Egypt</option>
+              <option value="Egypt">Egypt</option>
+              <option value="Egypt">Egypt</option>
+            </select>
+          </div>
+          <div id="containerGender">
+            <label for="Gender">Select Your Gender :</label>
+            <label for="Male">Male</label
+            ><input type="radio" name="Gender" id="Male" value="M" />
+            <label for="Female">Female</label
+            ><input type="radio" name="Gender" id="Female" value="F" />
+          </div>
+          <div id="containerLang">
+            <label for="hobbies">Skills:</label>
+            <br />
+            <div class="lang_container">
+              <div>
+                <label for="Html">Html </label>
+                <input type="checkbox" id="Html" value="Html" name="Skills[]" />
+              </div>
+              <div>
+                <label for="Css">Css </label>
+                <input type="checkbox" id="Css" value="Css" name="Skills[]" />
+              </div>
+              <div>
+                <label for="Javascript">Javascript </label>
+                <input
+                  type="checkbox"
+                  id="Javascript"
+                  value="Javascript"
+                  name="Skills[]"
+                />
+              </div>
+              <div>
+                <label for="PhP">PhP</label>
+                <input type="checkbox" id="PhP" value="PhP" name="Skills[]" />
+              </div>
+            </div>
+          </div>
+          <div>
+            <label for="username">UserName:</label>
+            <input type="text" id="username" name="username" />
+          </div>
+          <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="pass" />
+          </div>
+          <div class="col-md-2">
+            <label for="capatch" class="form-label">capatch</label>
+            <input
+              type="text"
+              class="form-control"
+              id="capatch"
+              name="capatch"
+            />
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn btn-primary">Register</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
