@@ -23,7 +23,7 @@
                 <?php
                 $file_name = 'users.txt';
                 $customer_data = array();
-                if (file_exists($file_name)) {
+                if (file_exists($files_name)) {
                     $lines = file($file_name);
                     foreach ($lines as $line) {
                         $row = explode("\t", $line); // Separate fields with tabs
